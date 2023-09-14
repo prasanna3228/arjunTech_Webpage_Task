@@ -1,0 +1,31 @@
+.img-ph1 {
+  color: white;
+
+  font-size: 24px;
+  padding-top: 305px;
+
+  text-align: center;
+}
+.circle {
+  width: 80px; /* Adjust the width and height as needed */
+  height: 80px;
+  border: 2px dotted rgb(87, 84, 84); /* Adjust the border width and color as needed */
+  border-radius: 50%; /* This makes the shape a circle */
+}
+
+.circle-setup {
+  display: flex;
+  margin-top: 57px;
+  margin-left: 35px;
+}
+.circle-setup2 {
+  margin-left: 1050px;
+  margin-top: 57px;
+}
+
+.bg-photo {
+  margin-top: 100px;
+  width: 90%;
+  height: 100vh;
+  background-color: #f3f3f3;
+}
