@@ -1,9 +1,7 @@
 .img-ph1 {
   color: white;
-
   font-size: 24px;
   padding-top: 305px;
-
   text-align: center;
 }
 .circle {
@@ -15,17 +13,89 @@
 
 .circle-setup {
   display: flex;
-  margin-top: 57px;
+  margin-top: 72px;
   margin-left: 35px;
 }
 .circle-setup2 {
   margin-left: 1050px;
-  margin-top: 57px;
+  margin-top: 72px;
 }
 
-.bg-photo {
-  margin-top: 100px;
+.bg-white1 {
   width: 90%;
-  height: 100vh;
+  height: 110vh;
+  margin-top: 200px;
   background-color: #f3f3f3;
+}
+.bg-white2 {
+  width: 75%;
+  height: 80vh;
+  filter: drop-shadow(3px 5.196px 7.5px rgba(0, 0, 0, 0.05));
+  background-color: #ffffff;
+}
+.bg-white-center {
+  display: flex;
+  justify-content: center;
+}
+/* 
+.gallery1 {
+  opacity: 0.2;
+  font-size: 110px;
+  line-height: 52px;
+  text-transform: uppercase;
+  color: #222222;
+  font-weight: bold;
+  font-family: "Mont";
+  text-align: center;
+  border: 1px solid #dbdbdb;
+} */
+
+.gallery1 {
+  padding-top: 25px;
+  opacity: 0.25;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 80px;
+  text-transform: uppercase;
+  color: #d2cdcd;
+  font-weight: bold;
+  font-family: "Mont";
+}
+.photo-gallery {
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #131313;
+  font-weight: bold;
+  font-family: "Mont";
+  text-align: center;
+  position: absolute;
+  top: 65px;
+  left: 360px;
+}
+.space {
+  justify-content: space-around;
+}
+
+.follow {
+  font-size: 34px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Mont";
+  text-align: center;
+}
+.circle1 {
+  width: 60px; /* Adjust the width and height as needed */
+  height: 60px;
+  border: 2px dotted rgb(87, 84, 84); /* Adjust the border width and color as needed */
+  border-radius: 50%; /* This makes the shape a circle */
+}
+.circle1-center {
+  padding-left: 20px;
+  padding-top: 14px;
 }
