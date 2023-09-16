@@ -1,49 +1,87 @@
 /* .video-bg {
   width: 100%;
-  height: 130vh;
+  height: auto;
   background-color: #191919;
+  padding-bottom: 20px;
 }
 .stories {
+  padding-top: 30px;
   font-size: 36px;
-  line-height: 22px;
   text-transform: uppercase;
   color: #fffefe;
   font-weight: bold;
   font-family: "Mont";
-  padding-left: 475px;
-  width: 90%;
+  text-align: center;
 }
 
 .v-img {
   background-image: url("video/Layer\ 56.png");
-  width: 35%;
-  height: 40vh;
+  width: 40%;
+  height: 45vh;
   background-size: cover;
-  margin-left: 180px;
-  margin-top: 30px;
+}
+
+@media (max-width: 576px) {
+  .v-img {
+    background-image: url("video/Layer\ 56.png");
+    width: 45%;
+    height: 30vh;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .v-img {
+    background-image: url("video/Layer\ 56.png");
+    width: 45%;
+    height: 30vh;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
 }
 
 .v-img1 {
   background-image: url("video/Layer\ 57.png");
-  width: 35%;
-  height: 40vh;
+  width: 40%;
+  height: 45vh;
   background-size: cover;
-  margin-left: 25px;
-  margin-top: 30px;
 }
 
-.play-bg {
+@media (max-width: 576px) {
+  .v-img1 {
+    background-image: url("video/Layer\ 57.png");
+    width: 45%;
+    height: 30vh;
+    background-size: cover;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .v-img1 {
+    background-image: url("video/Layer\ 57.png");
+    width: 45%;
+    height: 30vh;
+    background-size: cover;
+  }
+}
+
+.play-bg-yellow {
   width: 57px;
   height: 80px;
   background-color: #fecd03;
-  margin-top: 164px;
 }
 .play-bg1 {
   width: 57px;
   height: 80px;
   background-color: black;
   opacity: 0.8;
-  margin-top: 164px;
+}
+.play-bg-a {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: end;
 }
 .play-h1 {
   font-size: 18px;
@@ -54,11 +92,6 @@
   font-family: "Mont";
 }
 
-.play-bg-a {
-  justify-content: end;
-  flex-direction: column;
-}
-
 .forgive-h1 {
   font-size: 16px;
   letter-spacing: 1px;
@@ -67,18 +100,19 @@
   color: #ffffff;
   font-family: "Mont";
   font-weight: bold;
-  padding-top: 193px;
+  padding-top: 30px;
   padding-left: 20px;
 }
-.kl {
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  align-items: end;
+.play-icon-a {
+  padding-top: 20px;
 }
+
+.padding {
+  margin-left: 20px;
+}
+
 .make-bg {
   background-image: url("video/Layer\ 53.png");
-
   width: 100%;
   min-height: 20vh;
   background-attachment: fixed;
@@ -94,9 +128,23 @@
   color: #ffffff;
   font-weight: bold;
   font-family: "Mont";
-  text-align: center;
-  padding-left: 205px;
-  padding-top: 40px;
+}
+@media (max-width: 576px) {
+  .make-h1 {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .make-h1 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .make-h1 {
+    font-size: 14px;
+  }
 }
 
 .d-button {
@@ -111,9 +159,14 @@
   font-family: "Mont";
   text-align: center;
 }
-.m-b {
-  padding-left: 53px;
-  padding-top: 40px;
+.button-align {
+  padding-left: 30px;
+}
+
+.make-align {
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
 }
 
 .v-line {
@@ -124,8 +177,7 @@
   color: #898989;
   font-weight: 400;
   font-family: "Montserrat";
-
-  margin-left: 10px;
+  margin-left: 2px;
 }
 
 .v-line-h4 {
@@ -140,8 +192,10 @@
   font-family: "Montserrat";
 }
 
-.ml-all {
-  margin-left: 245px;
+@media (max-width: 576px) {
+  .v-line-h4 {
+    font-size: 4px;
+  }
 }
 
 .cell-bg {
@@ -152,4 +206,9 @@
 
 .test {
   padding-left: 50px;
+}
+
+.footer-contact {
+  justify-content: center;
+  justify-content: space-around;
 } */

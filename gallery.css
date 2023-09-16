@@ -1,3 +1,13 @@
+.gallery-bg {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100vh;
+}
+.gallery-bg1 {
+  background-color: #c58686;
+  width: 100%;
+  height: 100vh;
+}
 .img-ph1 {
   color: white;
   font-size: 24px;
@@ -71,10 +81,10 @@
   color: #131313;
   font-weight: bold;
   font-family: "Mont";
-  text-align: center;
+
   position: absolute;
   top: 65px;
-  left: 360px;
+  left: 315px;
 }
 .space {
   justify-content: space-around;

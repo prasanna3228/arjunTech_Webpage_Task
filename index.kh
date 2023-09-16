@@ -1,3 +1,4 @@
+<!-- deployed url https://arjun-ech-webpage-task-6s9q.vercel.app/ -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -68,7 +69,8 @@
         <div class="pd">
           <h1>
             <span class="do-good">DO GOOD</span>
-            <span style="color: #fefeff">INITIATIVE PROJECT </span>
+            <span style="color: #fefeff;font-weight: bold;
+            font-family: Nulshock Rg">INITIATIVE PROJECT </span>
           </h1>
           <h4 class="cult">CULTIVATING FLOURISHING COMMUNITIES</h4>
           <div class="b">
@@ -203,7 +205,7 @@
     </div>
 
     <!-- part3 projects -->
-    <div class="bg-black">
+    <div class="bg-black ">
       <div class="d-none d-xl-inline">
         <div class="circle-setup">
           <div class="circle pt-2 pl-3 circle-setup">
@@ -240,13 +242,13 @@
           </div>
         </div>
         <!-- gallery -->
-        <div class="bg-white1">
-          <div class="bg-white-center">
+        <div class="bg-white1 ">
+          <div class="bg-white-center ">
             <div class="bg-white2">
               <h1 class="gallery1">GALLERY</h1>
               <h1 class="photo-gallery">PHOTO GALLERY</h1>
               <div class="column">
-                <div class="d-flex flex-row space">
+                <div class="d-flex flex-row space ">
                   <div>
                     <img
                       src="gallery/Layer 42.png"
@@ -317,7 +319,7 @@
               </div>
             </div>
           </div>
-          <div>
+          <div class="">
             <h1 class="ngo1">CONTACT US</h1>
             <h1 class="follow">FOLLOW OUR WORK BEHIND THE SCENES</h1>
             <div class="d-flex justify-content-center">
@@ -394,7 +396,7 @@
       </div>
 
       <!-- video content -->
-    <div class="video-bg">
+    <div class="video-bg  ">
         <h1 class="stories pt-3">STORIES OF IMPACT</h1>
         <div class="d-flex flex-row">
           <div class="v-img ">
@@ -418,7 +420,6 @@
               
             </div>  
           </div>
-           
     
             <div class="v-img1">
               <div class="d-flex flex-row" >
@@ -523,19 +524,3 @@
   </body>
 </html>
 
-<!-- <div class="">
- 
-<div class="v-img d-flex flex-column justify-content-end">
-  <div class="d-flex  justify-content-start">
-    <div class="play-bg">
-      <p class="pt-3">
-        
-      </p>
-    </div>
-    <div class="">
-      <h1 class="forgive-h1">FORGIVENESS SCHOOL PROJECT</h1>
-    </div>
-  </div>
-</div>
-</div>
-</div> -->
