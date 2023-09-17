@@ -33,6 +33,11 @@
   justify-content: center;
 }
 
+.logo {
+  position: relative;
+  padding-bottom: 30px;
+}
+
 /* do goog css code */
 .do-good {
   background-color: #fecd03;
@@ -391,7 +396,7 @@
 @media (max-width: 576px) {
   .cell-bg {
     width: 150px;
-    background: none;
+    /* background: none; */
   }
 }
 .test {
