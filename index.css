@@ -1137,3 +1137,11 @@
     font-size: 10px;
   }
 }
+
+.clr {
+  color: #d2cdcd;
+}
+
+.clr:hover {
+  color: #fecd03;
+}
