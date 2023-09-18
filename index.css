@@ -200,6 +200,11 @@
   font-family: "Mont";
   text-align: center;
 }
+@media (max-width: 576px) {
+  .stories {
+    font-size: 18px;
+  }
+}
 
 .v-img {
   background-image: url("video/Layer\ 56.png");
@@ -291,6 +296,11 @@
   padding-top: 30px;
   padding-left: 20px;
 }
+@media (max-width: 576px) {
+  .forgive-h1 {
+    font-size: 6px;
+  }
+}
 .play-icon-a {
   padding-top: 20px;
 }
@@ -319,7 +329,7 @@
 }
 @media (max-width: 576px) {
   .make-h1 {
-    font-size: 10px;
+    font-size: 3px;
   }
 }
 
@@ -346,6 +356,11 @@
   color: #131313;
   font-family: "Mont";
   text-align: center;
+}
+@media (max-width: 576px) {
+  .d-button {
+    font-size: 8px;
+  }
 }
 .button-align {
   padding-left: 30px;
@@ -382,7 +397,7 @@
 
 @media (max-width: 576px) {
   .v-line-h4 {
-    font-size: 4px;
+    font-size: 2px;
   }
 }
 
@@ -1112,4 +1127,13 @@
   top: 50px;
   left: 1199px;
   padding-top: 13px;
+}
+
+.navbar-font {
+}
+
+@media (max-width: 576px) {
+  .navbar-font {
+    font-size: 10px;
+  }
 }
